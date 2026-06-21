@@ -1,5 +1,5 @@
 
-FROM tomcat:10.1-jdk22-openjdk-slim
+FROM tomcat:10.1-jdk21-openjdk-slim
 
 
 COPY src/main/webapp/ /usr/local/tomcat/webapps/ROOT/
